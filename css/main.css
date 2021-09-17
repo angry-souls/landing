@@ -1225,7 +1225,7 @@ body {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  opacity: 1;
+  opacity: .6;
   -webkit-transition: .5s;
   transition: .5s;
 }
