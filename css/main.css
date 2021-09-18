@@ -637,7 +637,8 @@ body {
 }
 
 .coll__inner {
-  width: 49.05396%;
+  padding-top: 5%;
+  width: 80%;
 }
 
 @media (max-width: 1000px) {
@@ -649,7 +650,7 @@ body {
 
 .coll__skills-desc {
   width: 75.97222%;
-  font-size: 18px;
+  font-size: 1.5em;
   line-height: 200%;
   color: #F3F3F3;
 }
@@ -663,6 +664,7 @@ body {
 @media (max-width: 1200px) {
   .coll__skills-desc {
     width: 100%;
+    font-size: 18px;
   }
 }
 
