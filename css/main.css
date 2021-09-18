@@ -209,7 +209,7 @@ body {
 }
 
 .section-coll {
-  background-image: url("../img/bg/services.jpg");
+  /* background-image: url("../img/bg/services.jpg"); */
   background-size: cover;
   background-position: 100% 22%;
   background-repeat: no-repeat;
@@ -633,6 +633,7 @@ body {
      object-fit: contain;
   -o-object-position: top;
      object-position: top;
+     height: 100%
 }
 
 .coll__inner {
