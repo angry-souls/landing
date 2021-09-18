@@ -1142,7 +1142,7 @@ body {
           flex: 0 0 auto;
   position: relative;
   height: 74.53704vh;
-  border-left: 1px solid #787A7C;
+  /* border-left: 1px solid #787A7C; */
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
