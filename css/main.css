@@ -776,7 +776,15 @@ body {
 .join__title{
   font-size: 8em;
   color: #fff;
-}
+  font-family:'Philosopher', sans-serif;
+  background-image: linear-gradient(
+220deg
+ , rgb(112, 236, 157) 11.64%, rgb(112, 126, 255) 70.29%, rgb(129, 60, 255) 114.24%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
 
 /* 2.17 road */
 .road {
