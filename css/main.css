@@ -1520,11 +1520,20 @@ body {
   }
 }
 
-.header__social-item:first-child {
+.header__social-item {
   margin-right: 50px;
 }
 
 .header__social-item:hover::after {
+  right: 0;
+  background-color: #F3F3F3;
+}
+
+.header__social-item_menu {
+  margin-right: 50px;
+}
+
+.header__social-item_menu:hover::after {
   right: 0;
   background-color: #F3F3F3;
 }
@@ -1604,7 +1613,7 @@ body {
   z-index: 100;
   font-size: 40px;
   line-height: 120%;
-  color: #787A7C;
+  color: #14F195;
   -webkit-transition: .3s;
   transition: .3s;
   -webkit-transform: translateX(100%);
@@ -1670,6 +1679,7 @@ body {
   -webkit-transition-delay: .3s;
           transition-delay: .3s;
 }
+
 
 @media (max-width: 620px) {
   .header__menu-social {
