@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="969px" height="969px" viewBox="0 0 969 969" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <radialGradient cx="53.0493102%" cy="46.8697948%" fx="53.0493102%" fy="46.8697948%" r="44.7788131%" id="radialGradient-1">
+            <stop stop-color="#3D25B6" offset="0%"></stop>
+            <stop stop-color="#3D25B6" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#radialGradient-1)" x="91" y="91" width="787" height="787" rx="393.5"></rect>
+    </g>
+</svg>

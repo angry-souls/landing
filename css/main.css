@@ -209,10 +209,11 @@ body {
 }
 
 .section-coll {
-  /* background-image: url("../img/bg/services.jpg"); */
-  background-size: cover;
-  background-position: 100% 22%;
+  background-color: #000;
+  background-image: url("../img/bg/bg-g.svg");
+  background-position: 700px 100px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-partners {
