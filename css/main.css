@@ -1134,9 +1134,9 @@ body {
   color: #F3F3F3;
   width: 100%;
   font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
+  display: inline;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
