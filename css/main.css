@@ -1269,7 +1269,7 @@ body {
 }
 
 .about__card {
-  width: 427px;
+  width: 295px;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
@@ -1282,14 +1282,14 @@ body {
 
 @media (max-width: 1000px) {
   .about__card {
-    width: 350px;
+    width: 295px;
     height: 620px;
   }
 }
 
 @media (max-width: 450px) {
   .about__card {
-    width: 300px;
+    width: 295px;
     height: 580px;
   }
 }
@@ -1357,8 +1357,8 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   -o-object-position: center;
      object-position: center;
   opacity: .6;
