@@ -558,12 +558,12 @@ body {
   line-height: 110%;
   color: #F3F3F3;
   width: 100%;
+  text-align: center;
 }
 
 @media (max-width: 1559px) {
   .coll__title {
     width: 100%;
-    text-align: center;
     font-size: 70px;
   }
 }
@@ -583,7 +583,6 @@ body {
 @media (max-width: 620px) {
   .coll__title {
     width: 100%;
-    text-align: center;
   }
 }
 
