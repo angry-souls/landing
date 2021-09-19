@@ -123,26 +123,26 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function scrollToSection() {
-        // const items = document.querySelectorAll('.header__menu-item');
-        //
-        // [...items].forEach(item => {
-        //     const section = document.getElementById(item.dataset.menuanchor);
-        //
-        //     item.addEventListener('click', function (event) {
-        //         event.preventDefault();
-        //
-        //         const { top } = section.getBoundingClientRect()
-        //
-        //         window.scrollTo({
-        //             top: window.scrollY + top,
-        //             behavior: "smooth"
-        //         });
-        //
-        //         if (isTablet()) {
-        //             document.querySelector('.header__menu').classList.remove('active');
-        //         }
-        //     })
-        // })
+        const items = document.querySelectorAll('.header__menu-item');
+
+        [...items].forEach(item => {
+            const section = document.getElementById(item.dataset.menuanchor);
+
+            item.addEventListener('click', function (event) {
+                event.preventDefault();
+
+                const { top } = section.getBoundingClientRect()
+
+                window.scrollTo({
+                    top: window.scrollY + top,
+                    behavior: "smooth"
+                });
+
+                if (isTablet()) {
+                    document.querySelector('.header__menu').classList.remove('active');
+                }
+            })
+        })
     }
 
     function initPaging() {

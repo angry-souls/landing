@@ -195,39 +195,47 @@ body {
 }
 
 .section-attr {
-  background-image: url("../img/bg/about.jpg");
-  background-size: cover;
-  background-position: 100% 22%;
-  background-repeat: no-repeat;
+  background: url('../img/bg/noise-transparent.png') , url('../img/bg/bg-g.svg');
+  animation: bg-animation .2s infinite;
+  background-position: 0, 0vw -200px;
+  background-repeat: repeat, no-repeat;
+  opacity: .9;
+  visibility: visible;
+  background-color: #000;
 }
 
 .section-about {
-  background-image: url("../img/bg/partners.jpg");
-  background-size: cover;
-  background-position: 100% 22%;
-  background-repeat: no-repeat;
+  background: url('../img/bg/noise-transparent.png') , url('../img/bg/bg-g.svg');
+  animation: bg-animation .2s infinite;
+  background-position: 0, 50vw 100px;
+  background-repeat: repeat, no-repeat;
+  opacity: .9;
+  visibility: visible;
+  background-color: #000;
 }
 
 .section-coll {
   background-color: #000;
   background-image: url("../img/bg/bg-g.svg");
-  background-position: 700px 100px;
+  background-position: 600px 100px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.section-partners {
+/* .section-partners {
   background-image: url("../img/bg/partners.jpg");
   background-size: cover;
   background-position: 100% 22%;
   background-repeat: no-repeat;
-}
+} */
 
 .section-road {
-  background-image: url("../img/bg/partners.jpg");
-  background-size: cover;
-  background-position: 100% 22%;
-  background-repeat: no-repeat;
+  background: transparent url('../img/bg/noise-transparent.png') repeat 0 0;
+  background-repeat: repeat;
+  animation: bg-animation .2s infinite;
+  opacity: .9;
+  visibility: visible;
+  background-color: #000;
 }
 
 .section-join {
