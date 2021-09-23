@@ -1,6 +1,6 @@
 body{
   background: url("../img/mint/bg-1.jpg") no-repeat;
-  background-size: cover;
+  background-size: contain;
   min-height: 100vh;
   background-color: #000000;
   width: 100vw;
