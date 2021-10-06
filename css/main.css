@@ -282,6 +282,10 @@ body {
           flex-direction: column;
 }
 
+.solana{
+  width:300px;
+}
+
 .home__title {
   font-family: 'Philosopher', sans-serif;
   font-weight: 300;
